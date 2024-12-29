@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+   <!--? ICON TITLE -->
+
+   <!--? Стандартный фавикон для большинства браузеров -->
+   <!-- <link rel="icon" href="/path/to/favicon.ico" type="image/x-icon">
+   <link rel="shortcut icon" href="/path/to/favicon.ico" type="image/x-icon"> -->
+
+   <!--? SVG иконка, если поддерживается -->
+   <!-- <link rel="icon" href="img/header/icon-aside.svg" type="image/svg+xml"> -->
+
+
+
+
+
+   <!--todo Google Fonts -->
+
+   <link href="https://fonts.googleapis.com/css?family=Lexend+Deca:regular&display=swap&_v=20241229193525" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=DM+Sans:regular,500,700&display=swap&_v=20241229193525" rel="stylesheet">
+
+
+   <link rel="stylesheet" href="css/style.min.css?_v=20241229193525">
+   <title>hairstyle</title>
+
+</head>
+
+<body>
+
+   <div class="wrapper">
+
+      <!--=================================HEADER=====================================-->
+
+      <header class="header" id="header">
+   <div class="header__container">
+
+      <!-- Кнопка для меню бургера -->
+
+      <button class="icon-menu" type="button">
+         <span></span>
+      </button>
+
+      <nav class="header__menu menu">
+
+         <div class="menu__wrapper">
+            <div class="menu__body">
+               <ul class="menu__list">
+                  <li class="menu__item">
+                     <a data-goto-url="index.html" data-goto-section=".main" class="menu__link" href="#">Menus</a>
+                     <!-- -------------------------sub-menu-------------------------------- -->
+                     <div class="menu__arrows">
+                        <span class="menu__arrow"></span>
+                     </div>
+                     <ul class="menu__sub-list">
+                        <li class="menu__sub-item">
+                           <a data-goto-url="index.html" data-goto-section=".focused" href="#"
+                              class="menu__sub-link">focused</a>
+                        </li>
+
+                        <li class="menu__sub-item">
+                           <a data-goto-url="index.html" data-goto-section=".task" href="#"
+                              class="menu__sub-link">task</a>
+                        </li>
+
+                        <li class="menu__sub-item">
+                           <a data-goto-url="index.html" data-goto-section=".services" href="#"
+                              class="menu__sub-link">services</a>
+                        </li>
+                        <li class="menu__sub-item">
+                           <a data-goto-url="index.html" data-goto-section=".passion" href="#"
+                              class="menu__sub-link">passion</a>
+                        </li>
+                        <li class="menu__sub-item">
+                           <a data-goto-url="index.html" data-goto-section=".gallery" href="#"
+                              class="menu__sub-link">gallery</a>
+                        </li>
+
+
+
+                     </ul>
+                     <!-- ------------------------/sub-menu-------------------------------- -->
+                  </li>
+
+                  <li class="menu__item">
+                     <a class="menu__link" href="#">About & Careers</a>
+                  </li>
+                  <li class="menu__item">
+                     <a class="menu__link" href="#">Contact</a>
+                  </li>
+               </ul>
+            </div>
+
+            <div class="menu__content"></div>
+         </div>
+      </nav>
+
+      <div class="header__box-logo">
+         <a href="index.html" class="header__logo logo">
+            debonaire
+         </a>
+      </div>
+
+      <!-- <div class="header__link-box"></div> -->
+      <a href="#" class="link">Book an Appoitment</a>
+
+   </div>
+
+
+
+
+
+
+   <!-- Раскоментувати, якщо використовуєтсья loader для light dark theme -->
+   <!-- <div id="loader" class="loader"> -->
+   <!-- Лоадер. Можно использовать иконку, текст или CSS-анимацию -->
+   <!-- <div class="spinner"></div>
+   </div> -->
+
+
+</header>
+
+      <!--=================================/HEADER=====================================-->
+      <!--=================================main-section=====================================-->
+
+
+      <main class="page">
+         <!--=================================main-section=====================================-->
+
+         <section class="page__main main" id="main">
+            <div class="main__container">
+
+               <div class="main__content">
+                  <h1 class="main__title">Hi, we are Debonaire.
+                     Ready to create an art form on your body.
+                  </h1>
+
+                  <div class="main__box">
+                     <div class="main__girl-box">
+                        <picture><source srcset="img/main/girl.webp" type="image/webp"><img src="img/main/girl.png" class="main__girl" alt="image"></picture>
+                     </div>
+                     <img src="img/main/decor01.svg" class="main__decor-green" alt="image">
+                     <img src="img/main/decor02.svg" class="main__decor-bottom" alt="image">
+                     <img src="img/main/decor03.svg" class="main__decor-top" alt="image">
+                  </div>
+
+
+                  <div class="main__eye">
+                     <picture><source srcset="img/main/eye.webp" type="image/webp"><img src="img/main/eye.png" alt="image"></picture>
+                     <div class="main__text text">
+                        <p>
+                           Debonaire is natural product-based, hair design & boutique.
+                        </p>
+                     </div>
+                  </div>
+
+
+               </div>
+
+            </div>
+         </section>
+         <!--============================focused==========================================-->
+         <section class="page__focused focused" id="focused">
+            <div class="focused__container">
+               <div class="focused__items">
+
+                  <div class="focused__box-girl">
+
+                     <div class="focused__girl">
+                        <picture><source srcset="img/focused/girl.webp" type="image/webp"><img class="focused__girl-img" src="img/focused/girl.jpg" alt="image"></picture>
+                     </div>
+                     <img class="focused__girl-decor" src="img/focused/girl-decor.svg" alt="image">
+                  </div>
+
+
+                  <div class="focused__header header-focused header-block">
+                     <h2 class="header-focused__title header-block__title">We’re focused.</h2>
+                     <div class="header-focused__text header-block__text text">
+                        <p>
+                           We provide an exceptional service by only focusing on hair designing. Our goal is to provide
+                           a different type of experience by using responsible products.
+                        </p>
+                     </div>
+                  </div>
+
+                  <div class="focused__box-branch">
+                     <div class="focused__branch">
+                        <picture><source srcset="img/focused/branch.webp" type="image/webp"><img class="focused__branch-img" src="img/focused/branch.jpg" alt="image"></picture>
+                     </div>
+                     <img class="focused__branch-decor" src="img/focused/branch-decor.svg" alt="image">
+                  </div>
+
+               </div>
+            </div>
+         </section>
+         <!--===========================task===========================================-->
+         <section class="page__task task" id="task">
+            <div class="task__items">
+               <div class="task__box-girl">
+                  <div class="task__girl">
+                     <picture><source srcset="img/task/girl-bw.webp" type="image/webp"><img class="task__girl-img" src="img/task/girl-bw.jpg" alt="image"></picture>
+                  </div>
+                  <img class="task__girl-decor" src="img/task/girl-bw-decor.svg" alt="image">
+               </div>
+               <div class="task__header header-task header-block">
+                  <h2 class="header-task__title header-block__title header-block__title-big">
+                     We love what we do. We are
+                     up to the task.
+                  </h2>
+                  <div class="header-task__text header-block__text text">
+                     <p>
+                        Cuts tailor made for your hair, making it easy for you to recreate your look every day.
+                        Debonaire team, makes you feel happy at ease and work with you to make you your most lovely.
+                     </p>
+                  </div>
+               </div>
+
+
+               <div class="task__hair-dryer">
+                  <picture><source srcset="img/task/hair-dryer.webp" type="image/webp"><img src="img/task/hair-dryer.jpg" alt="image"></picture>
+               </div>
+
+               <div class="task__hair">
+                  <div class="task__content">
+                     <div class="task__hair-img-box">
+                        <picture><source srcset="img/task/hair.webp" type="image/webp"><img class="task__hair-img" src="img/task/hair.png" alt="image"></picture>
+                     </div>
+                     <img class="task__hair-decor" src="img/task/hair-decor.svg" alt="image">
+                  </div>
+
+               </div>
+            </div>
+         </section>
+         <!--===========================services===========================================-->
+         <section class="page__services services" id="services">
+            <div class="services__container">
+               <div class="services__header header-services header-block">
+                  <h2 class="header-services__title header-block__title">
+                     Our Services
+                  </h2>
+               </div>
+               <div class="services__items">
+
+                  <div class="services__black black-services">
+                     <div class="black-services__img">
+                        <picture><source srcset="img/services/black-hair.webp" type="image/webp"><img src="img/services/black-hair.jpg" alt="image"></picture>
+                     </div>
+                     <h4 class="black-services__title title">Cut.</h4>
+                  </div>
+
+                  <div class="services__purple purple-services">
+                     <h4 class="purple-services__title title">Color.</h4>
+
+                     <div class="purple-services__content">
+                        <div class="purple-services__img">
+                           <picture><source srcset="img/services/purple-hair.webp" type="image/webp"><img src="img/services/purple-hair.jpg" alt="image"></picture>
+                        </div>
+                        <div class="purple-services__header header-purple-services header-block">
+                           <h2 class="header-purple-services__title header-block__title">
+                              We create a customized new look for you.
+                           </h2>
+                        </div>
+                        <img class="purple-services__decor" src="img/services/decor-purple.svg" alt="image">
+                     </div>
+
+                  </div>
+
+                  <div class="services__brown brown-services">
+                     <div class="brown-services__img-box">
+                        <picture><source srcset="img/services/brown-hair.webp" type="image/webp"><img class="brown-services__img" src="img/services/brown-hair.jpg" alt="image"></picture>
+
+                     </div>
+                     <img class="brown-services__decor" src="img/services/decor-brown.svg" alt="image">
+                  </div>
+               </div>
+
+               <div class="services__bottom">
+                  <a href="#" class="link">See Our Menu</a>
+                  <div class="services__text">
+                     <p>AND THE MOST IMPORTANT PART</p>
+                  </div>
+               </div>
+
+
+            </div>
+         </section>
+         <!--===========================services===========================================-->
+         <section class="page__passion passion" id="passion">
+            <div class="passion__container">
+               <div class="passion__header header-passion header-block">
+                  <h2 class="header-passion__title header-block__title header-block__title-big">We work with passion.
+                  </h2>
+                  <div class="header-passion__text header-block__text text">
+                     <p>
+                        Our specialists are waiting to give you the treatments and services that you deserve.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <picture><source srcset="img/passion/bg.webp" type="image/webp"><img class="passion__bg" src="img/passion/bg.jpg" alt="image"></picture>
+         </section>
+         <!--======================================================================-->
+         <div class="page__gallery gallery" id="gallery">
+            <div class="gallery__container">
+               <div class="gallery__items">
+                  <div class="gallery__short-hair">
+                     <picture><source srcset="img/gallery/short-hair.webp" type="image/webp"><img src="img/gallery/short-hair.jpg" alt="image"></picture>
+                  </div>
+
+                  <div class="gallery__girl-bw girl-bw-gallery">
+                     <div class="girl-bw-gallery__content">
+                        <div class="girl-bw-gallery__img-box">
+                           <picture><source srcset="img/gallery/girl-bw.webp" type="image/webp"><img class="girl-bw-gallery__img" src="img/gallery/girl-bw.jpg" alt="image"></picture>
+
+                        </div>
+                        <img class="girl-bw-gallery__brown-decor" src="img/gallery/girl-bw-brown-decor.svg"
+                           alt="image">
+                        <img class="girl-bw-gallery__decor" src="img/gallery/girl-bw-decor.svg" alt="image">
+                        <a href="#" class="link">Book an Appoitment</a>
+                     </div>
+                  </div>
+
+
+                  <div class="gallery__girl-smile">
+                     <picture><source srcset="img/gallery/girl-smile.webp" type="image/webp"><img src="img/gallery/girl-smile.jpg" alt="image"></picture>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+         <!--===========================services===========================================-->
+
+         <section class="page__test test">
+            <div class="test__container">
+               <a href="#" class="dialog-popup__open-link" data-popup-id="popup2">тест ссылка popup2
+                  тест </a>
+               <button class="dialog-popup__open-button button" data-popup-id="popup2" type="button">open №2</button>
+
+               <dialog class="popup__dialog dialog-popup" data-popup-id="popup2">
+                  <div class="dialog-popup__body">
+
+                     <div class="dialog-popup__text text">
+                        <p>
+                           Попап №2
+                        </p>
+                     </div>
+                     <div class="dialog-popup__actions">
+                        <button class="dialog-popup__close-button button--x" type="button"><span></span></button>
+                     </div>
+                     <button class="dialog-popup__close-button button" type="button">close</button>
+
+                  </div>
+               </dialog>
+            </div>
+         </section>
+         <!-- <a href="#" class="link link-big">Apply Now</a> -->
+
+         <!-- <div class="name__header header-name header-block">
+            <h2 class="header-name__title header-block__title"></h2>
+            <div class="header-name__text header-block__text text">
+               <p></p>
+            </div>
+         </div> -->
+         <!--=================================main-section=====================================-->
+
+
+      </main>
+
+
+      
+
+      <!--=================================FOOTER=====================================-->
+
+      <footer class="footer">
+   <div class="footer__main main-footer">
+
+
+      <div class="main-footer__columns">
+
+
+
+         <div class="main-footer__column">
+            <nav class="main-footer__menu menu-footer">
+               <ul class="menu-footer__list">
+                  <li class="menu-footer__item">
+                     <a href="#" target="_blank" class="menu-footer__link">
+                        Terms of Service
+                     </a>
+                  </li>
+                  <li class="menu-footer__item">
+                     <a href="#" target="_blank" class="menu-footer__link">
+                        Privacy Policy
+                     </a>
+                  </li>
+               </ul>
+            </nav>
+
+
+            <nav data-da-burger=".menu__content, last" class="main-footer__menu menu-footer">
+
+               <ul class="menu-footer__list in-burger">
+                  <li class="menu-footer__item in-burger__item">
+
+                     <a href="#" target="_blank" class="menu-footer__link menu-footer__link-facebook">
+                        <svg class="facebook__svg" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                           xmlns="http://www.w3.org/2000/svg">
+                           <path
+                              d="M15.75 8C15.75 11.875 12.9062 15.0938 9.1875 15.6562V10.25H11L11.3438 8H9.1875V6.5625C9.1875 5.9375 9.5 5.34375 10.4688 5.34375H11.4375V3.4375C11.4375 3.4375 10.5625 3.28125 9.6875 3.28125C7.9375 3.28125 6.78125 4.375 6.78125 6.3125V8H4.8125V10.25H6.78125V15.6562C3.0625 15.0938 0.25 11.875 0.25 8C0.25 3.71875 3.71875 0.25 8 0.25C12.2812 0.25 15.75 3.71875 15.75 8Z"
+                              fill="#707070" />
+                        </svg>
+                        <span>Facebook</span>
+                     </a>
+                  </li>
+
+                  <li class="menu-footer__item">
+                     <a href="#" class="menu-footer__link menu-footer__link-instagram">
+                        <svg class="instagram__svg" width="14" height="14" viewBox="0 0 14 15" fill="none"
+                           xmlns="http://www.w3.org/2000/svg">
+                           <path
+                              d="M7 3.40625C8.96875 3.40625 10.5938 5.03125 10.5938 7C10.5938 9 8.96875 10.5938 7 10.5938C5 10.5938 3.40625 9 3.40625 7C3.40625 5.03125 5 3.40625 7 3.40625ZM7 9.34375C8.28125 9.34375 9.3125 8.3125 9.3125 7C9.3125 5.71875 8.28125 4.6875 7 4.6875C5.6875 4.6875 4.65625 5.71875 4.65625 7C4.65625 8.3125 5.71875 9.34375 7 9.34375ZM11.5625 3.28125C11.5625 3.75 11.1875 4.125 10.7188 4.125C10.25 4.125 9.875 3.75 9.875 3.28125C9.875 2.8125 10.25 2.4375 10.7188 2.4375C11.1875 2.4375 11.5625 2.8125 11.5625 3.28125ZM13.9375 4.125C14 5.28125 14 8.75 13.9375 9.90625C13.875 11.0312 13.625 12 12.8125 12.8438C12 13.6562 11 13.9062 9.875 13.9688C8.71875 14.0312 5.25 14.0312 4.09375 13.9688C2.96875 13.9062 2 13.6562 1.15625 12.8438C0.34375 12 0.09375 11.0312 0.03125 9.90625C-0.03125 8.75 -0.03125 5.28125 0.03125 4.125C0.09375 3 0.34375 2 1.15625 1.1875C2 0.375 2.96875 0.125 4.09375 0.0625C5.25 0 8.71875 0 9.875 0.0625C11 0.125 12 0.375 12.8125 1.1875C13.625 2 13.875 3 13.9375 4.125ZM12.4375 11.125C12.8125 10.2188 12.7188 8.03125 12.7188 7C12.7188 6 12.8125 3.8125 12.4375 2.875C12.1875 2.28125 11.7188 1.78125 11.125 1.5625C10.1875 1.1875 8 1.28125 7 1.28125C5.96875 1.28125 3.78125 1.1875 2.875 1.5625C2.25 1.8125 1.78125 2.28125 1.53125 2.875C1.15625 3.8125 1.25 6 1.25 7C1.25 8.03125 1.15625 10.2188 1.53125 11.125C1.78125 11.75 2.25 12.2188 2.875 12.4688C3.78125 12.8438 5.96875 12.75 7 12.75C8 12.75 10.1875 12.8438 11.125 12.4688C11.7188 12.2188 12.2188 11.75 12.4375 11.125Z"
+                              fill="#707070" />
+                        </svg>
+                        <span>Instagram</span>
+                     </a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+
+
+
+         <div class="main-footer__column">
+            <h2 class="main-footer__title">We invite you to join our team.</h2>
+            <a href="#" class="link link-big">Apply Now</a>
+         </div>
+
+      </div>
+
+
+
+
+
+   </div>
+
+
+
+</footer>
+
+
+<!--? scroll-to-top buttton -->
+<button class="scroll-to-top">
+   <?xml version="1.0" encoding="UTF-8"?>
+   <svg xmlns="http://www.w3.org/2000/svg" class="back-to-top" viewBox="0 0 24 24" width="40" height="40">
+      <!-- Синий круг -->
+      <circle cx="12" cy="12" r="12" fill="var(--color-blue)" />
+      <!-- Белая стрелка -->
+      <path d="M10.586,6.586a2,2,0,0,1,2.828,0l4.243,4.243-1.414,1.414L13,9v9H11V9L7.757,12.243,6.343,10.829Z"
+         fill="white" />
+   </svg>
+</button>
+
+      <!--=================================/FOOTER=====================================-->
+
+
+   </div>
+
+
+   <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js?_v=20241229193525"></script> -->
+   <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js?_v=20241229193525"></script> -->
+   <script src="js/app.min.js?_v=20241229193525"></script>
+</body>
+
+</html>
