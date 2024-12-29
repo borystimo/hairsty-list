@@ -298,6 +298,11 @@ body {
   padding-bottom: clamp(6.25rem, 6.25rem + 70 * (100vw - 20rem) / (1440 - 320), 10.625rem);
 }
 
+.page__gallery {
+  padding-top: clamp(3.125rem, 3.125rem + 100 * (100vw - 20rem) / (1440 - 320), 9.375rem);
+  padding-bottom: clamp(3.125rem, 3.125rem + 100 * (100vw - 20rem) / (1440 - 320), 9.375rem);
+}
+
 [class*=__container] {
   max-width: 85.625rem;
   margin: 0 auto;
@@ -2286,81 +2291,6 @@ body._touch .menu__item._active .menu__arrow {
   right: 89%;
 }
 
-.dialog-popup {
-  position: fixed;
-  margin: 0rem;
-  width: 25rem;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-}
-
-.dialog-popup::-ms-backdrop {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-.dialog-popup::backdrop {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-.dialog-popup__body {
-  padding: 3.125rem;
-  text-align: center;
-}
-
-.dialog-popup__text {
-  margin-bottom: 1.875rem;
-}
-
-.dialog-popup__actions {
-  position: absolute;
-  top: 0.875rem;
-  right: 0.625rem;
-}
-
-.scroll-block {
-  overflow: hidden;
-}
-
-.button--x {
-  position: relative;
-  height: 1.25rem;
-  width: 1.5rem;
-  font-size: 1.5rem;
-  line-height: 1;
-  background-color: transparent;
-  -webkit-transition: -webkit-transform 0.3s ease 0s;
-  transition: -webkit-transform 0.3s ease 0s;
-  transition: transform 0.3s ease 0s;
-  transition: transform 0.3s ease 0s, -webkit-transform 0.3s ease 0s;
-}
-
-.button--x:before,
-.button--x:after {
-  content: "";
-  position: absolute;
-  right: 0;
-  width: 100%;
-  height: 0.125rem;
-  background-color: #000;
-}
-
-.button--x:before {
-  top: calc(50% - 0.0625rem);
-  -webkit-transform: rotate(-45deg);
-      -ms-transform: rotate(-45deg);
-          transform: rotate(-45deg);
-}
-
-.button--x:after {
-  -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-          transform: rotate(45deg);
-  bottom: calc(50% - 0.0625rem);
-}
-
 /*==============================================*/
 
 @media (min-width: 34.375em) {
@@ -3074,12 +3004,6 @@ body._touch .menu__item._active .menu__arrow {
   }
 
   .girl-bw-gallery__img:hover {
-    -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-            transform: scale(1.1);
-  }
-
-  .button--x:hover {
     -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
             transform: scale(1.1);
